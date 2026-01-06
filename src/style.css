@@ -4,13 +4,8 @@
   --main-color: #00acdc;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 body {
+  margin: 0;
   font-family: Roboto, sans-serif;
   font-weight: 500;
 }
@@ -29,7 +24,7 @@ body {
   width: 40px;
 }
 
-.header__logo img {
+.header__logo-image {
   height: 100%;
   width: 100%;
 }
@@ -37,6 +32,8 @@ body {
 .nav__list {
   display: flex;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .nav__item {
